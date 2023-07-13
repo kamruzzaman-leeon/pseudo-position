@@ -1,11 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pseduo - position</title>
+    <style>
+        h3 {
+            color: peru;
+        }
+
+        /* hover means mouse over */
+        h3:hover {
+            color: tomato;
+            background-color: skyblue;
+        }
+
+        input:focus{
+            color:  blue;
+            padding-left: 20px;
+            border: 1px solid purple;
+        }
+
+        a:visited{
+            color: gray;
+        }
+
+        li:last-child{
+            color: red;
+        }
+        li:first-child{
+            color: greenyellow;
+        }
+        li:nth-child(2n+1){
+            background-color: antiquewhite;
+        }
+    </style>
 </head>
+
 <body>
+    <h3> My heading</h3>
+    <input type="text"><br>
+    <input type="text">
+    <input type="text">
+    <a href="https://www.google.com/">google</a>
+    <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwil4oTm54qAAxWb-DgGHRSDDnEQFnoECFoQAQ&url=https%3A%2F%2Fwww.worldbank.org%2Fen%2Fcountry%2Fperu&usg=AOvVaw1GfWIyDvBn6rtWcMml6RGO&opi=89978449">World-bank</a>
+
     
+
+    <ul>
+        <li>rock</li>
+        <li>rock</li>
+        <li>rock</li>
+        <li>rock</li>
+        <li>rock</li>
+        <li>rock</li>
+        <li>rock</li>
+    </ul>
 </body>
+
 </html>
